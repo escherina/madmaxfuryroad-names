@@ -1,3 +1,3 @@
-# starwars-names
+# madmaxfuryroad-names
 
-For all your random Star Wars character needs
+For all your random Mad Max: Fury Road character needs

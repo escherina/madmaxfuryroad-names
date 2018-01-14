@@ -1,20 +1,20 @@
-import {join} from 'path'
+import { join } from "path";
 
-const context = join(__dirname, 'src')
+const context = join(__dirname, "src");
 
 export default {
   context,
-  entry: './index',
+  entry: "./index",
   output: {
-    path: join(__dirname, 'dist'),
-    libraryTarget: 'umd',
-    library: 'starWarsNames',
+    path: join(__dirname, "dist"),
+    libraryTarget: "umd",
+    library: "madMaxFuryRoadNames"
   },
-  devtool: 'source-map',
+  devtool: "source-map",
   module: {
     loaders: [
-      {test: /\.js$/, loaders: ['babel'], include: context},
-      {test: /\.json$/, loaders: ['json'], include: context},
-    ],
-  },
-}
+      { test: /\.js$/, loaders: ["babel"], include: context },
+      { test: /\.json$/, loaders: ["json"], include: context }
+    ]
+  }
+};

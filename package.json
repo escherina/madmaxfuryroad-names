@@ -1,7 +1,7 @@
 {
-  "name": "starwars-names",
+  "name": "madmaxfuryroad-names",
   "version": "1.0.0",
-  "description": "Get random Star Wars names",
+  "description": "Get random names from Mad Max: Fury Road",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -16,21 +16,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kentcdodds/starwars-names.git"
+    "url": "git+https://github.com/escherina/madmaxfuryroad-names.git"
   },
-  "keywords": [
-    "random",
-    "star wars"
-  ],
-  "files": [
-    "dist"
-  ],
-  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "keywords": ["random", "mad max", "names"],
+  "files": ["dist"],
+  "author": "Rhian van Esch (https://rhianvanesch.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kentcdodds/starwars-names/issues"
+    "url": "https://github.com/escherina/madmaxfuryroad-names/issues"
   },
-  "homepage": "https://github.com/kentcdodds/starwars-names#readme",
+  "homepage": "https://github.com/escherina/madmaxfuryroad-names#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
@@ -59,28 +54,17 @@
     "function": 100,
     "lines": 100,
     "statements": 100,
-    "reporter": [
-      "text",
-      "lcov"
-    ],
-    "include": [
-      "src"
-    ],
+    "reporter": ["text", "lcov"],
+    "include": ["src"],
     "sourceMap": false,
     "instrument": false,
-    "require": [
-      "babel-register"
-    ]
+    "require": ["babel-register"]
   },
   "babel": {
-    "presets": [
-      "es2015"
-    ],
+    "presets": ["es2015"],
     "env": {
       "test": {
-        "plugins": [
-          "istanbul"
-        ]
+        "plugins": ["istanbul"]
       }
     }
   },
