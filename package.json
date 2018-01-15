@@ -1,6 +1,6 @@
 {
   "name": "madmaxfuryroad-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get random names from Mad Max: Fury Road",
   "main": "dist/index.js",
   "scripts": {
@@ -19,8 +19,14 @@
     "type": "git",
     "url": "git+https://github.com/escherina/madmaxfuryroad-names.git"
   },
-  "keywords": ["random", "mad max", "names"],
-  "files": ["dist"],
+  "keywords": [
+    "random",
+    "mad max",
+    "names"
+  ],
+  "files": [
+    "dist"
+  ],
   "author": "Rhian van Esch (https://rhianvanesch.com/)",
   "license": "MIT",
   "bugs": {
@@ -56,17 +62,28 @@
     "function": 100,
     "lines": 100,
     "statements": 100,
-    "reporter": ["text", "lcov"],
-    "include": ["src"],
+    "reporter": [
+      "text",
+      "lcov"
+    ],
+    "include": [
+      "src"
+    ],
     "sourceMap": false,
     "instrument": false,
-    "require": ["babel-register"]
+    "require": [
+      "babel-register"
+    ]
   },
   "babel": {
-    "presets": ["es2015"],
+    "presets": [
+      "es2015"
+    ],
     "env": {
       "test": {
-        "plugins": ["istanbul"]
+        "plugins": [
+          "istanbul"
+        ]
       }
     }
   },
