@@ -1,6 +1,6 @@
 {
   "name": "madmaxfuryroad-names",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Get random names from Mad Max: Fury Road",
   "main": "dist/index.js",
   "scripts": {
