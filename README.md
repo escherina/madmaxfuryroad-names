@@ -16,8 +16,8 @@ npm install --save madmaxfuryroad-names
 Alternatively you can get the UMD build which is also published to the npm
 registry and is available at [unpkg][unpkg-link]:
 
-* [https://unpkg.com/madmaxfuryroad-names@1.0.1/dist/index.umd.js][npmcdn-link]
-* [https://unpkg.com/madmaxfuryroad-names@1.0.1/dist/index.umd.min.js][npmcdn-min-link]
+* [https://unpkg.com/madmaxfuryroad-names@2.0.1/dist/index.umd.js][npmcdn-link]
+* [https://unpkg.com/madmaxfuryroad-names@2.0.1/dist/index.umd.min.js][npmcdn-min-link]
 
 The UMD build exposes the module as a global called `madMaxFuryRoadNames` or as an unnamed
 module for AMD/CommonJS (require it by its file path)
